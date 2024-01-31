@@ -27,9 +27,13 @@
     "svelte": "^4.0.0"
   },
   "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^15.2.3",
     "@storybook/addon-essentials": "^7.6.11",
     "@storybook/addon-interactions": "^7.6.11",
     "@storybook/addon-links": "^7.6.11",
+    "@storybook/addon-svelte-csf": "^4.1.0",
     "@storybook/blocks": "^7.6.11",
     "@storybook/svelte": "^7.6.11",
     "@storybook/sveltekit": "^7.6.11",
@@ -50,5 +54,9 @@
   },
   "svelte": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "rollup": "^4.9.6",
+    "rollup-plugin-svelte": "^7.1.6"
+  }
 }
