@@ -24,7 +24,6 @@
     }
   }
 
-
   function handleColorClass() {
     if(colorsArray.includes(color)) {
       return color;
@@ -45,8 +44,8 @@
     if(colorsArray.includes(color)) return;
     if(type === 'outlined') return color;
     if(textColor && !disabled) return textColor;
+    
     const parsedColor = checkHexIsLight(color) ? '#000' : '#FFF';
-    console.log('ParsedColor ::: ', parsedColor);
     return parsedColor;
   };
 
