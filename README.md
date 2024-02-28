@@ -1,7 +1,7 @@
-# LM-UI-Components
+# MirandaUI
 
 UI Library build with Svelte and Storybook
-Our demo storybook is available on: https://lm-ui-components.vercel.app
+Our demo storybook is available on: [Vercel](https://miranda-ui.vercel.app)
 
 ## Running Locally
 
@@ -18,12 +18,12 @@ yarn storybook
 Everything inside `src/lib` is part of the library.
 
 ## Usage
-This library is available on [NPM](https://www.npmjs.com/package/lm-ui-components)
+This library is available on [NPM](https://www.npmjs.com/package/miranda-ui)
 
 To install this library:
 
 ```bash
-npm i lm-ui-components
+npm i miranda-ui
 ```
 
 To use it inside your project:
