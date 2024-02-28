@@ -1,6 +1,6 @@
 <script lang='ts'>
   import { createEventDispatcher } from 'svelte';
-  import Spinner from '../spinner/spinner.svelte';
+  import { Spinner } from '$lib/index.ts';
   import { checkHexIsLight } from '$lib/utils/colors.js';
   
   export let disabled = false;
