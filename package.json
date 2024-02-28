@@ -10,7 +10,7 @@
     "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
     "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build -s public",
+    "build-storybook": "storybook build",
     "serve-storybook": "serve storybook-static"
   },
   "exports": {
